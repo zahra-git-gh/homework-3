@@ -54,76 +54,56 @@ input[type="search"]{
     color: #16285f;
     
 }
-#container{
+#store{
+    max-width: 100%;
+    background-color: #000000;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-}
-#para-1{
-    max-width: 35vw;
-    min-height: 450px;
-    border-right:2px solid #16285f;
-    border-bottom:2px solid #16285f;
-    margin-top: 50px;
-    padding: 10px;
-    text-align: left;
-    line-height: 1.5em;
-    border-radius: 5px;
-}
-div>#image-1{
-    max-width: 28vw;
-    min-height: 450px;
-    margin-top: 50px;
-    border-left:2px solid #16285f;
-    border-bottom: 2px solid #16285f;
-    border-radius: 5px;   
-}
-#cards{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     
+    
 }
-.card{
-    max-width: 22vw;
+.store-box{
+    max-width: 30vw;
     min-height: 500px;
-    background-color: #828dbb;
-    margin-top: 50px;
-    color: #16285f;
-    border-radius: 5px;
-}
-.images{
-    max-width: 20vw;
-    min-height: 350px;
-    margin-left: 10px;
-    margin-top: 5px;
-    box-shadow: 5px 5px 5px #16285f77;
-    border-radius: 5px;
+    background-color: #5b64a4ae;
+    background-image: url(766d038c5602906de22fe9e85dad0b1e.jpg);
     
+    border: 1px solid #828dbbb0;
+    margin: 5px;
+    border-radius: 5px;
 }
-.card>p{
-    max-width: 20vw;
-    min-height: 280px;
-    margin-left: 10px;
+#store img{
+    max-width: 25vw;
+    border-radius: 10px;
 }
-#para-2{
-    width: 70vw;
-    min-height: 200px;
+#store button{
+    max-width: 7vw;
+    min-height: 30px;
     border: 1px solid #16285f;
-    border-radius: 5px;
-    margin-top: 50px;
-    
+    background-color: #c7bbd7;
+    margin-left: 15px;
 }
-#para-2>p{
-    line-height: 1.5em;
-    font-size: large;
-   padding: 0 20px 20px 20px;
-    color: #16285f;
-}
-#para-2>h3{
+#store button:hover{
+    background-color: #16285f;
+    color: #d7cfdb;
+box-shadow:5px 5px 5px #000000;
 
-color: #16285f;
-padding-left: 20px;
-padding-top: 20px;
+}
+#parent-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+#store p{
+    font-size: large;
+    color: yellow;
+    margin-left: 15px;
+}
+#parent-2 h3{
+    font-size: xx-large;
+    color: #16285f;
+    letter-spacing: 0.3em;
 }

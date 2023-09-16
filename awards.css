@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    max-width: 100vw;
+    min-height: 100px;
+    margin-top: 30px;
+    background-color: #16285f;
+    background-image: url(766d038c5602906de22fe9e85dad0b1e.jpg);
+    color: #c7bbd7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-size: cover;
+    position: sticky;
+    top: 0px;
+    
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#box{
+    display: flex;
+    flex-direction: row;
+}
+a{
+    color: #16285f; 
+    font-size: larger;
+    text-decoration: none;
+}
+
+h1{
+align-self: center;
+color: #16285f;
+
+
+}
+input[type="search"]{
+    max-width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    
+}
+#search{
+    max-width: 4vw;
+    min-height: 30px;
+    border-radius: 5px;
+    background-color: #d7cfdb;
+    color: #16285f;
+    
+}
+#awards{
+    max-width: 98vw;
+    min-height: 400px;
+    background-color: #5b64a4;
+    background-image: url(766d038c5602906de22fe9e85dad0b1e.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0px;
+    
+}
+
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.card-award{
+    max-width: 30vw;
+    min-height: 100px;
+    background-color: #c7bbd7;
+    border: 1px solid #828dbb;
+    margin: 5px;
+    border-radius: 5px;
+}
+#parent-title{
+    max-width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+#title{
+    color: #16285f;
+    font-size: xx-large;
+    letter-spacing: 4px;
+    margin-top: 50px;
+}
+#table-parent{
+    max-width: 95vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.pink{
+    background-color:#c7bbd7;
+    color: #16285f;
+}
+.blue{
+    background-color:#828dbb;
+    color: #16285f;
+    
+}
+table tr,td,th{
+    border: 1px solid purple; 
+}
+th{
+    padding: 12px;
+    border-radius: 5px;
+    background-color: #16285f;
+    color: white;
+}
+td{
+    padding: 10px;
+}

@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    max-width: 100vw;
+    min-height: 100px;
+    margin-top: 30px;
+    background-color: #16285f;
+    background-image: url(766d038c5602906de22fe9e85dad0b1e.jpg);
+    color: #c7bbd7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-size: cover;
+    position: sticky;
+    top: 0px;
+    
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#box{
+    display: flex;
+    flex-direction: row;
+}
+a{
+    color: #16285f; 
+    font-size: larger;
+    text-decoration: none;
+}
+
+h1{
+align-self: center;
+color: #16285f;
+
+
+}
+input[type="search"]{
+    max-width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    
+}
+#search{
+    max-width: 4vw;
+    min-height: 30px;
+    border-radius: 5px;
+    background-color: #d7cfdb;
+    color: #16285f;
+    
+}
+#play{
+    max-width: 99vw;
+    min-height: 70px;
+    background-color: #16285f;
+    background-image: url(766d038c5602906de22fe9e85dad0b1e.jpg);
+    background-size: cover;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#play p{
+    font-size: xx-large;
+    color: #16285f;
+    align-self: center;
+}
+#songs{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.song{
+    width: 22vw;
+    min-height: 300px;
+    background-color: #c7bbd7;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.image-3{
+    max-width: 19vw;
+    min-height: 200px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #16285f4d;
+}
+#songs p{
+    color: #16285f;
+    margin-left: 20px;
+    font-size: large;
+}
+.circle{
+    max-width: 3.7vw;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ebe6ee;
+    align-self: center;
+    margin-bottom: 15px;
+}
+.black{
+    max-width: 0.5vw;
+   height: 5px;
+   background-color: rgba(255, 0, 0, 0);
+   border: 15px solid #16285f;
+   border-top-color: rgba(0, 255, 255, 0);
+   border-right-color: rgba(0, 255, 255, 0);
+   border-bottom-color: rgba(0, 255, 255, 0);
+   margin-left: 20px;
+
+}
+.lyrick{
+    max-width: 71vw;
+    min-height: 800px;
+    border: 1px solid #16285f;
+    border-radius: 5px;
+    margin-left: 29px;
+    margin-top: 50px;
+    background-color: #c7bbd7;
+}
+.lyrick h3{
+    color: #16285f;
+    margin-top: 10px;
+    margin-left: 15px;
+
+}
+.lyrick p{
+line-height: 1.5em;
+color: #16285f;
+}
